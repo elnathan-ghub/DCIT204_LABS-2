@@ -184,3 +184,10 @@ After completing this lab, you should be able to:
 Take your time, write clean code, test your programs thoroughly, and remember:
 
 > **Correctness first, then readability, then efficiency.**
+## Project Structure
+* `FindMax.java`: Finds the largest value and its index within a user-defined integer array.
+* `PairSum.java`: Uses a brute-force nested loop search to locate two unique indices whose values sum up to a target integer.
+
+## Time Complexity Analysis
+* **Find Maximum Value**: $O(n)$ - Requires a single pass linear scan through the array of size $n$.
+* **Pair Sum (Brute Force)**: $O(n^2)$ - Uses nested loops evaluating pairs, leading to quadratic time growth.
